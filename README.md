@@ -2,7 +2,7 @@
 
 Crawls craigslist car listings and stores results in sqlite db
 
-## Setup & Run
+### Install dependencies
 
 ```
 sudo apt install composer php php-sqlite3
