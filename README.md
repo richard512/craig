@@ -7,12 +7,24 @@ Crawls craigslist car listings and stores results in sqlite db
 ```
 sudo apt install composer php php-sqlite3
 composer install
-php crawl.php
-php -S localhost:9000
-xdg http://localhost:9000/
 ```
 
-## View the SQLite DB
+### Start the crawler
+```
+php crawl.php
+```
+
+### Start the php web server
+```
+php -S localhost:9000
+```
+
+### Open the web app in your default web browser
+```
+xdg-open http://localhost:9000/
+```
+
+### View the SQLite DB
 ```sqlite3 cars.db```
 
 
