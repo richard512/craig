@@ -1,24 +1,24 @@
-#Craigslist car listings crawler
+# Craigslist car listings crawler
 
-##Dependencies
+## Dependencies
 - composer (https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 - PHP
 - SQLite (PDO) extension of PHP
 
-##Installation:
+## Installation:
 From project's root folder run:
 
 ```composer install```
 
-##Running the crawler
+## Running the crawler
 ```php crawl.php``` will run the crawler and store the data in cars.db in project's root folder
 
 
-##Web interface
+## Web interface
 ```php -S localhost:9000``` will start the built-in PHP server and you can visit 
 ```http://localhost:9000/``` to see the listings
 
-##For analytics you might want to connect to SQLite directly which can be done with:
+## View the SQLite DB
 ```sqlite3 cars.db```
 
 
